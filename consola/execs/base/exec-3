@@ -1,0 +1,8 @@
+#!/bin/bash
+FILE=consola
+cd ..
+cd ..
+make $FILE
+if test -f "./$FILE"; then
+    ./$FILE ../geck-pruebas/prueba-base/Consola.config ../geck-pruebas/algoritmos/BASE_3
+fi

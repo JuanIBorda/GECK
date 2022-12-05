@@ -1,0 +1,11 @@
+mkdir -p "./consola/logs"
+mkdir -p "./cpu/logs"
+mkdir -p "./kernel/logs"
+mkdir -p "./memoria/logs"
+mkdir -p "./shared/logs"
+
+mkdir -p "./consola/obj"
+mkdir -p "./cpu/obj"
+mkdir -p "./kernel/obj"
+mkdir -p "./memoria/obj"
+mkdir -p "./shared/obj"

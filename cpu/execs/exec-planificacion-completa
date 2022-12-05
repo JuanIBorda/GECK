@@ -1,0 +1,7 @@
+#!/bin/bash
+FILE=cpu
+cd ..
+make $FILE
+if test -f "./$FILE"; then
+    ./$FILE ../geck-pruebas/prueba-planificacion-completa/CPU.config
+fi

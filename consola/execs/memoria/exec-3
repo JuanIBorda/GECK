@@ -1,0 +1,8 @@
+#!/bin/bash
+FILE=consola
+cd ..
+cd ..
+make $FILE
+if test -f "./$FILE"; then
+    ./$FILE ../geck-pruebas/prueba-memoria/ConsolaC.config ../geck-pruebas/algoritmos/MEMORIA_3
+fi

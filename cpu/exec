@@ -1,0 +1,6 @@
+#!/bin/bash
+FILE=cpu
+make $FILE
+if test -f "./$FILE"; then
+    ./$FILE ../pruebas/geck-pruebas/prueba-memoria/CPU.config
+fi

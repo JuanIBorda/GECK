@@ -1,0 +1,7 @@
+#!/bin/bash
+FILE=memoria
+cd ..
+make $FILE
+if test -f "./$FILE"; then
+    ./$FILE ../geck-pruebas/prueba-base/Memoria.config
+fi
